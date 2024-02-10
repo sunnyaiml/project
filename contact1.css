@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.img{
+    background-image: url(img/microchip.png);
+    height: 48rem;
+    width: 46rem;
+    background-repeat: no-repeat;
+    filter: blur(15px);
+    background-position: center;
+    margin-left: 26rem;
+}
+
+image{
+    height: 55rem;
+    width: 55rem;
+}
+
+.bg-text {
+    border-radius: 26px;
+    display: grid;
+    height: 30rem;
+    width: 28rem;
+    background-color: aqua;
+    transform: translate(568px, -626px);
+    justify-items: end;
+    justify-content: space-between;
+}
+
+.names{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    align-items: center;
+    display: flex;
+}
+
+.contact {
+    align-items: center;
+    display: flex;
+    height: 3rem;
+}
+
+.c-items{
+    display: flex;
+}
+
+.contact h1{
+    padding-right: 2vw;
+}
+
+input#fname {
+    height: 2rem;
+    width: 12rem;
+}
+
+.details {
+    transform: translate(-51px, -3px);
+}
