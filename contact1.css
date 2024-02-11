@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
 
 }
 
@@ -22,42 +27,52 @@ image{
 }
 
 .bg-text {
+    text-align: center;
     border-radius: 26px;
     display: grid;
     height: 30rem;
     width: 28rem;
-    background-color: aqua;
+    background-color: transparent;
     transform: translate(568px, -626px);
-    justify-items: end;
+    box-shadow: 50px 20px 40px rgba(0, 0, 0, 0.244), inset 20px 20px 60px rgba(255, 255, 255, 0.556);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.names{
+    padding-top: 15px;
+    align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 
-.names{
-    padding-top: 1rem;
-    padding-left: 2rem;
-    align-items: center;
-    display: flex;
-}
-
 .contact {
-    align-items: center;
     display: flex;
-    height: 3rem;
+    justify-content: space-between;
 }
 
 .c-items{
     display: flex;
 }
 
-.contact h1{
-    padding-right: 2vw;
-}
 
 input#fname {
+ 
+    margin-left: 8px;
+    padding-left: 31px;
+    border: none;
     height: 2rem;
     width: 12rem;
+    border-radius: 15px;
+    box-shadow: 30px 20px 40px rgba(0, 0, 0, 0.96), inset 20px 20px 60px rgb(255, 255, 255);
 }
 
-.details {
-    transform: translate(-51px, -3px);
+
+
+textarea#subject {
+    border: none;
+    border-radius: 15px;
+    width: 18rem;
+    resize: none;
 }
